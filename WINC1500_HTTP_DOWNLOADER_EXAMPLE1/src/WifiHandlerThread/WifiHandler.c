@@ -973,7 +973,7 @@ static void MQTT_HandleLoadMessages(void)
 {
 	 uint32_t pressure;
 	 if (pdPASS == xQueueReceive(xQueueLoadBuffer, &pressure, 0)) {
-		 snprintf(mqtt_msg, 63, "\Pressure\:%d", pressure);
+		 snprintf(mqtt_msg, 63, "%d", pressure);
 		 mqtt_publish(&mqtt_inst, LOAD_TOPIC, mqtt_msg, strlen(mqtt_msg), 1, 0);
 		 }
 }
