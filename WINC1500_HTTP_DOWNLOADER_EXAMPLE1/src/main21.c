@@ -182,7 +182,7 @@ static void StartTasks(void)
 		SerialConsoleWriteString("ERR: IMU task could not be initialized!\r\n");
 	}
 	snprintf(bufferPrint, 64, "Heap after starting IMU Task: %d\r\n", xPortGetFreeHeapSize());
-	SerialConsoleWriteString(bufferPrint); 
+	SerialConsoleWriteString(bufferPrint);
 	
 	/* if (xTaskCreate(vLoadCellTask, "Load Cell Task", LOADCELL_TASK_SIZE, NULL, LOADCELL_TASK_PRIORITY, &loadcellTaskHandle) != pdPASS) {
 		SerialConsoleWriteString("ERR: Load Cell task could not be initialized!\r\n");

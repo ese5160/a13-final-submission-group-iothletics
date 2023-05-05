@@ -11,6 +11,7 @@
 #include "SerialConsole/SerialConsole.h"
 #include "WifiHandlerThread/WifiHandler.h"
 #include "CliThread/CliThread.h"
+#include "NAU7802/NAU7802.h"
 
 char WriteBuffer[100];
 
@@ -61,8 +62,15 @@ void vIMUTask( void *pvParameters )
 			
 			state = Haptic_Begin();
 			state = Haptic_Mode();
+			vTaskDelay(30);
 			
 		}
-		vTaskDelay(100);
+		
+		uint32_t pressure;
+
+		NAUbegin();
+		WifiAddLoadDataToQueue(&pressure);
+		vTaskDelay(30);
+
 	}
 }

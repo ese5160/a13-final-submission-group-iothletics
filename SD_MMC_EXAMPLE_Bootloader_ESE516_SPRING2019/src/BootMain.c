@@ -189,7 +189,7 @@ if(A_state == 1){
 
 for(int i=0; i<644; i++){
 		
-	// Iterate address by 256 times the i th iteration.
+	// Iterate address by 256 times the i'th iteration.
 		
 	enum status_code nvmError = nvm_erase_row(APP_START_ADDRESS + (i*256));
 	if(nvmError != STATUS_OK)
@@ -253,7 +253,7 @@ for(int i=0; i<644; i++){
 When contents of 'TestB' file are to be executed
 **********************************************************/
 	
-if (A_state == 0){
+/*if (A_state == 0){
 		
 // We need to fill a memory of 32KB. Each operation iterates 256 bytes of memory.
 // So we run the entire operation of 128 times.
@@ -319,7 +319,7 @@ if (A_state == 0){
 			//SerialConsoleWriteString("Test write to NVM succeeded!\r\n");
 		}
 	}	
-}
+} */
 	
 
 	//4.) DEINITIALIZE HW AND JUMP TO MAIN APPLICATION!

@@ -14,6 +14,8 @@
 #include "asf.h"
 #include "CliThread/CliThread.h"
 #include "WifiHandlerThread/WifiHandler.h"
+#include "arm_math.h"
+#include "math.h"
 
 
 uint8_t msgOutLoad[64]; //<USE ME AS A BUFFER FOR platform_write and platform_read
@@ -129,6 +131,9 @@ int NAUbegin(){
 	vTaskDelay(10);
 	
 	uint32_t pressure = (data_buffer[0]<<16) | (data_buffer[1]<<8) | (data_buffer[2]);
+	
+	pressure = pressure/100000;
+
 
 	snprintf((char *) bufCli, sizeof(bufCli), "Foot Pressure: %d", (int32_t)pressure);
 	//SerialConsoleWriteString(bufCli);
