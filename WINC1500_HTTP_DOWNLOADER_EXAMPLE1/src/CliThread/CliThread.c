@@ -294,9 +294,6 @@ BaseType_t CLI_GetImuData(int8_t *pcWriteBuffer, size_t xWriteBufferLen, const i
 		imuPacket.ymg = (int)acceleration_mg[1];
 		imuPacket.zmg = (int)acceleration_mg[2];
 		WifiAddImuDataToQueue(&imuPacket);
-		//WifiAddImuYDataToQueue(&imuPacket);
-		//WifiAddImuZDataToQueue(&imuPacket);
-		
 		
     } else {
         snprintf((char *)pcWriteBuffer, xWriteBufferLen, "No data ready! Sending dummy data \r\n");
@@ -304,8 +301,6 @@ BaseType_t CLI_GetImuData(int8_t *pcWriteBuffer, size_t xWriteBufferLen, const i
 		imuPacket.ymg = -2;
 		imuPacket.zmg = -3;
 		WifiAddImuDataToQueue(&imuPacket);
-		//WifiAddImuYDataToQueue(&imuPacket);
-		//WifiAddImuZDataToQueue(&imuPacket);
 
     }
 	
@@ -329,7 +324,7 @@ BaseType_t xCliClearTerminalScreen(char *pcWriteBuffer, size_t xWriteBufferLen, 
 BaseType_t CLI_OTAU(int8_t *pcWriteBuffer, size_t xWriteBufferLen, const int8_t *pcCommandString)
 {
     WifiHandlerSetState(WIFI_DOWNLOAD_INIT);
-    vTaskDelay(600000);
+    vTaskDelay(100000);
 	system_reset();
 	return pdFALSE;
 }
