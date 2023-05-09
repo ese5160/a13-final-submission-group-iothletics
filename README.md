@@ -4,17 +4,18 @@
 
 ## Google Drive Link:
 
-### Master folder for project related media: https://drive.google.com/drive/folders/1vEnRuY5sOIpiOTU5w-dloeMmJygRpKy0?usp=sharing
+### Media folder link: https://drive.google.com/drive/folders/1vEnRuY5sOIpiOTU5w-dloeMmJygRpKy0?usp=sharing
 
 <br>
 
 ## 1) Project Photos
 
-### Final Project
+
+### PCB Front View
 
 <br>
 
-### PCB Front View
+![IMG_2072 (1)](https://github.com/ese5160/a13-final-submission-group-iothletics/assets/52575718/de8af4f9-b506-41ae-84e7-e5c556e69ea9)
 
 <br>
 
@@ -22,18 +23,34 @@
 
 <br>
 
+![IMG_2075 (1)](https://github.com/ese5160/a13-final-submission-group-iothletics/assets/52575718/e3ccb93f-b36c-4305-a4ad-4f98eeffaf7b)
+
+<br>
+
 ### PCB Powered On
+
+<br>
+
+![IMG_2076 (1)](https://github.com/ese5160/a13-final-submission-group-iothletics/assets/52575718/0b5ff833-959d-4459-837e-5f582daf37d7)
+
+<br>
+
+### System-On-Shoe
+
+<br>
+
+![IMG_2112](https://github.com/ese5160/a13-final-submission-group-iothletics/assets/52575718/ab77043c-5a5f-4f68-b7b5-0aa8e9e51145)
 
 <br>
 
 ## 2) Altium PCBA Project
 
-### Altium Link: 
+### Altium Link: https://upenn-eselabs.365.altium.com/designs/D289D1B7-8ECE-4074-A984-1496C96F328F
 <br>
 
 ## 3) Codebase
 
-### Github Repository: 
+### Github Repository: https://github.com/ese5160/a13-final-submission-group-iothletics
 
 <br>
 
@@ -45,7 +62,7 @@
 
 ## 5) Devpost
 
-### Devpost Link: 
+### Devpost Link: https://devpost.com/software/iothletics
 <br>
 
 ### Thank you for a great semester.
