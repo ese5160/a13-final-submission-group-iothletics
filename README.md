@@ -3,8 +3,52 @@
 # IoThletics A13 - Final Submission
 
 ## Google Drive Link:
-All the photos and videos of the working project: 
 
-### Thank you for a great semester. This is Team IoThletics signing off!
+### Master folder for project related media: 
+
+<br>
+
+## 1) Project Photos
+
+### Final Project
+
+<br>
+
+### PCB Front View
+
+<br>
+
+### PCB Back View
+
+<br>
+
+### PCB Powered On
+
+<br>
+
+## 2) Altium PCBA Project
+
+### Altium Link: 
+<br>
+
+## 3) Codebase
+
+### Github Repository: 
+
+<br>
+
+## 4) Video Presentation
+
+### Video Demonstration Link: 
+
+<br>
+
+## 5) Devpost
+
+### Devpost Link: 
+<br>
+
+### Thank you for a great semester.
+### Team Iothletics signing off!
 
 
