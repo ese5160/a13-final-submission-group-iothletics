@@ -1,17 +1,54 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/SxxGvihW)
 
-# IoThletics A11
+# IoThletics A13 - Final Submission
 
-## Driver for DRV2605L (Haptic Motor Driver)
+## Google Drive Link:
 
-- The Haptic Motor is vibrating successfully after user input in the CLI.
-
-Link to Video: https://drive.google.com/file/d/1sPx1piJCOMvsLRM1FrBnwZzSKml2SCrQ/view?usp=sharing
+### Master folder for project related media: https://drive.google.com/drive/folders/1vEnRuY5sOIpiOTU5w-dloeMmJygRpKy0?usp=sharing
 
 <br>
 
-## Driver for LSM6DSO (IMU)
+## 1) Project Photos
 
-- The IMU is giving values for the X, Y and Z axis successfully after user input in the CLI.
+### Final Project
 
-Link to Video: https://drive.google.com/file/d/1Yo6opBlQzK-5dnMpsbd3QQMSIRxeeL99/view?usp=sharing
+<br>
+
+### PCB Front View
+
+<br>
+
+### PCB Back View
+
+<br>
+
+### PCB Powered On
+
+<br>
+
+## 2) Altium PCBA Project
+
+### Altium Link: 
+<br>
+
+## 3) Codebase
+
+### Github Repository: 
+
+<br>
+
+## 4) Video Presentation
+
+### Video Demonstration Link: https://drive.google.com/file/d/1QCJzHm2_Y2KfForakLdpp_FLtoJApdoA/view?usp=sharing
+
+<br>
+
+## 5) Devpost
+
+### Devpost Link: 
+<br>
+
+### Thank you for a great semester.
+### Team Iothletics signing off!
+
+
