@@ -4,7 +4,7 @@
 
 ## Google Drive Link:
 
-### Master folder for project related media: 
+### Master folder for project related media: https://drive.google.com/drive/folders/1vEnRuY5sOIpiOTU5w-dloeMmJygRpKy0?usp=sharing
 
 <br>
 
@@ -39,7 +39,7 @@
 
 ## 4) Video Presentation
 
-### Video Demonstration Link: 
+### Video Demonstration Link: https://drive.google.com/file/d/1QCJzHm2_Y2KfForakLdpp_FLtoJApdoA/view?usp=sharing
 
 <br>
 
